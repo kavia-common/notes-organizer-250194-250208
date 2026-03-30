@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "export",
+  // The app needs runtime API calls + auth state; static export would break this.
 };
 
 export default nextConfig;
